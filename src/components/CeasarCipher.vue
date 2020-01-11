@@ -63,7 +63,6 @@ export default {
           ceasarCharArray.push(this.originalAlphabet[newLetterIndex]);
       })
       this.cipherText = ceasarCharArray.join("");
-      console.log("NEW: ",ceasarCharArray.join(""));
     }
   }
 };
