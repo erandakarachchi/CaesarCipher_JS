@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <CeasarCipher></CeasarCipher>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CeasarCipher from './components/CeasarCipher.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    CeasarCipher
   }
 }
 </script>
